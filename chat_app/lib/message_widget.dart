@@ -10,6 +10,12 @@ class MessageWidget extends StatelessWidget {
     return ListView(
       children: <Widget>[
         ListTile(
+          // onTap: () {
+          //   Navigator.of(context)
+          //       .push(MaterialPageRoute(builder: (BuildContext context) {
+          //         return ...;
+          //       }));
+          // },
           contentPadding:
               const EdgeInsets.symmetric(horizontal: 32.0, vertical: 8.0),
           leading: ClipOval(
